@@ -8,10 +8,12 @@ function whisper(string) {
 
 function logShout(string) {
   shoutUC = string.toUpperCase;
+  string = shoutUC;
   console.log(shoutUC);
 }
 
 function logWhisper(string) {
   whisperLC = string.toLowerCase;
+  string = whisperLC;
   console.log(whisperLC);
 }
